@@ -17,7 +17,7 @@ class Three
         System.out.println("Enter third number :");
         num3 = sc.nextInt();
 
-        if(num1 > num2)
+        if((num1 > num2) && (num2 > num1))
         {
             System.out.println(num1+"is larger");
         }

@@ -23,4 +23,4 @@ class LargesArrayt
         System.out.println("Largest = " + largest);
         System.out.println("Second Largest = " + secondLargest);
     }
-}
+} 
