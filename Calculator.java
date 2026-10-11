@@ -40,8 +40,14 @@ public class Calculator {
                 }
                 break;
 
-                case'%':
-                System.out.println("Result = "+(num1 % num2));
+            case '%':
+               if (num2 != 0)
+                {
+                    System.out.println("Result = " + (num1 % num2));
+                } 
+                else {
+                    System.out.println("Cannot divide by zero");
+                }
                 break;
 
             default:
